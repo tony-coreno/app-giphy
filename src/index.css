@@ -3,6 +3,8 @@
 }
 body{
   padding: 60px;
+  background-color: #2b2b61;
+  color: aliceblue;
 }
 
 input {

@@ -11,7 +11,7 @@ const GifGrid = ({category}) => {
     },[])
 
     const getGifs = async() => {
-        const url = `https://api.giphy.com/v1/gifs/search?q=${ encodeURI( category)}&limit=5&api_key=QC3hdNo8y3n6ES4J1kxIsqEd9S0qy05X`
+        const url = `https://api.giphy.com/v1/gifs/search?q=${ encodeURI( category)}&limit=10&api_key=QC3hdNo8y3n6ES4J1kxIsqEd9S0qy05X`
         const resp = await fetch( url );
         const { data } = await resp.json();
         
